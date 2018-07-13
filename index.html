@@ -231,7 +231,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https:/fangchichen.github.io/2018/07/11/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https:/fangchichen.github.io/2018/07/11/hexo+githubpaging/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="fangchichen">
@@ -250,7 +250,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/07/11/hello-world/" itemprop="url">Hero + GitHub Page 快速搭建个人博客</a></h1>
+                <a class="post-title-link" href="/2018/07/11/hexo+githubpaging/" itemprop="url">Hero + GitHub Page 快速搭建个人博客</a></h1>
         
 
         <div class="post-meta">
@@ -305,8 +305,7 @@
             <p>近段时间觉得应该把自己学习到的东西进行个总结，同时也方便自己以后回顾，所以心血来潮想搭建一个博客，顺势就把搭建的过程记录一下，作为自己的第一篇博客吧，希望以后能坚持下去。</p>
 <h3 id="系统环境说明"><a href="#系统环境说明" class="headerlink" title="系统环境说明"></a>系统环境说明</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">MacOS: <span class="number">10.13</span><span class="number">.5</span></span><br><span class="line">Nodejs: <span class="number">10.6</span><span class="number">.0</span></span><br><span class="line">npm: <span class="number">6.1</span><span class="number">.0</span></span><br><span class="line">git: <span class="number">2.13</span><span class="number">.6</span></span><br></pre></td></tr></table></figure>
 <p>Hexo依赖于Nodejs和npm，所以在开始之前先安装好Nodejs和npm</p>
-<p>###安装Hexo</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+<h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
 <p>安装完毕之后，先初始化一个blog文件夹，作为后续项目的目录（我看到有些文档是让先git clone下来git上的repo，再在这个文件夹里hexo init，这样hexo会报错提示该文件夹不为空，所以这里我选择先init一个文件夹，而且，可以使用hexo的自动部署到github paging上，省去clone 远端库的过程）</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br><span class="line">cd blog</span><br><span class="line">npm install</span><br><span class="line">hexo g <span class="comment"># 或者hexo generate</span></span><br><span class="line">hexo s <span class="comment"># 或者hexo server</span></span><br></pre></td></tr></table></figure>
 <p>完成上述步骤后，我们就可以在<a href="http://localhost:4000/上查看到一个hello" target="_blank" rel="noopener">http://localhost:4000/上查看到一个hello</a> world的样本文章。</p>
@@ -323,8 +322,7 @@
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
 <p>就可以在本地查看主题是否更改了。</p>
 <p>接下来就是配置GitHub paging了。</p>
-<p>###GitHub Paging设置</p>
-<p>首先你得有一个GitHub账号，并且配置好public key，然后你再新建一个repo，这里建议把Repository name设置成下面这样的样式</p>
+<h3 id="GitHub-Paging设置"><a href="#GitHub-Paging设置" class="headerlink" title="GitHub Paging设置"></a>GitHub Paging设置</h3><p>首先你得有一个GitHub账号，并且配置好public key，然后你再新建一个repo，这里建议把Repository name设置成下面这样的样式</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fangchichen.github.io. <span class="comment"># 重点是后面的github.io</span></span><br></pre></td></tr></table></figure>
 <p>避免hexo主题一些css/js文件找不到的问题</p>
 <p>建完repo后，我们就可以把文章部署在GitHub上了</p>
