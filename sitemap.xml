@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https:/fangchichen.github.io/2018/07/13/docker%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2018-07-13T09:34:32.208Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https:/fangchichen.github.io/2018/07/13/hexo+githubpaging/</loc>
     
     <lastmod>2018-07-13T09:13:36.232Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https:/fangchichen.github.io/tags/index.html</loc>
     
     <lastmod>2018-07-13T09:02:23.161Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https:/fangchichen.github.io/2018/07/13/docker%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    
-    <lastmod>2018-07-13T06:55:38.893Z</lastmod>
     
   </url>
   
