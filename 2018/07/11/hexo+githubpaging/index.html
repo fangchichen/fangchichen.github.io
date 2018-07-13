@@ -73,8 +73,6 @@
 
 
 
-  
-
 
   <link rel="alternate" href="/atom.xml" title="fangchichen" type="application/atom+xml" />
 
@@ -90,7 +88,7 @@
 <meta property="og:site_name" content="fangchichen">
 <meta property="og:description" content="近段时间觉得应该把自己学习到的东西进行个总结，同时也方便自己以后回顾，所以心血来潮想搭建一个博客，顺势就把搭建的过程记录一下，作为自己的第一篇博客吧，希望以后能坚持下去。 系统环境说明1234MacOS: 10.13.5Nodejs: 10.6.0npm: 6.1.0git: 2.13.6 Hexo依赖于Nodejs和npm，所以在开始之前先安装好Nodejs和npm 安装Hexo1npm ins">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-07-13T06:33:21.196Z">
+<meta property="og:updated_time" content="2018-07-13T06:52:46.402Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hero + GitHub Page 快速搭建个人博客">
 <meta name="twitter:description" content="近段时间觉得应该把自己学习到的东西进行个总结，同时也方便自己以后回顾，所以心血来潮想搭建一个博客，顺势就把搭建的过程记录一下，作为自己的第一篇博客吧，希望以后能坚持下去。 系统环境说明1234MacOS: 10.13.5Nodejs: 10.6.0npm: 6.1.0git: 2.13.6 Hexo依赖于Nodejs和npm，所以在开始之前先安装好Nodejs和npm 安装Hexo1npm ins">
@@ -342,14 +340,11 @@
 <p>然后把hexo生成的public里面的内容全复制到下载下来的repo本地文件夹里面</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cp -R public/* .deploy/fangchichen.github.io</span><br><span class="line">cd .deploy/fangchichen.github.io</span><br><span class="line">git add .</span><br><span class="line">git commit -m “update”</span><br><span class="line">git push origin master</span><br></pre></td></tr></table></figure>
 <p>如果觉得麻烦，可以写个脚本来执行上面的操作，省去每次更新文章都得再来一遍。</p>
-<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>到这里搭建个人博客就基本上完成了，生下来就介绍一些hexo常用命令</p>
+<h3 id="Hexo常用命令"><a href="#Hexo常用命令" class="headerlink" title="Hexo常用命令"></a>Hexo常用命令</h3><p>创建一个新的文章</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+<p>未完待续！</p>
 
       
     </div>
@@ -487,7 +482,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#系统环境说明"><span class="nav-number">1.</span> <span class="nav-text">系统环境说明</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装Hexo"><span class="nav-number">2.</span> <span class="nav-text">安装Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#主题设置"><span class="nav-number">3.</span> <span class="nav-text">主题设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GitHub-Paging设置"><span class="nav-number">4.</span> <span class="nav-text">GitHub Paging设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#文章部署"><span class="nav-number">5.</span> <span class="nav-text">文章部署</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">6.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">7.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">8.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">9.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#系统环境说明"><span class="nav-number">1.</span> <span class="nav-text">系统环境说明</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装Hexo"><span class="nav-number">2.</span> <span class="nav-text">安装Hexo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#主题设置"><span class="nav-number">3.</span> <span class="nav-text">主题设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GitHub-Paging设置"><span class="nav-number">4.</span> <span class="nav-text">GitHub Paging设置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#文章部署"><span class="nav-number">5.</span> <span class="nav-text">文章部署</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo常用命令"><span class="nav-number">6.</span> <span class="nav-text">Hexo常用命令</span></a></li></ol></div>
             
 
           </div>
@@ -528,6 +523,9 @@
   <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
 
 
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
 
 
         
