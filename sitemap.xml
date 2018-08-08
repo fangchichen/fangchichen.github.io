@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https:/fangchichen.github.io/2018/08/08/celery%E5%87%BA%E7%8E%B0worker%E5%BC%82%E5%B8%B8offline%E6%83%85%E5%86%B5/</loc>
+    
+    <lastmod>2018-08-08T09:28:52.823Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https:/fangchichen.github.io/2018/08/07/supervisor%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</loc>
     
     <lastmod>2018-08-07T10:27:09.018Z</lastmod>
